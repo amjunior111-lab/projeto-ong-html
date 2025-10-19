@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header>
+        <h1>Refúgio Animal</h1>
+      <nav class="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="projetos.html">Projetos Sociais</a>
+            <a href="cadastro.html">Cadastro</a>
+       </nav>
+    </header>
+    <main>
+    <section>
+    <h2>Você pode atuar em várias frentes como voluntário:</h2>
+    <p>🐶 Cuidados com os animais (alimentação, higiene, passeios)</p>
+    <p>📢 Divulgação e redes sociais</p>
+    <p>📦 Logística e doações</p>
+    <p>📚 Educação e conscientização</p>
+    <p>💻 Apoio administrativo ou design</p>
+    </section>
+    <div>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/voluntario500.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/voluntario700.png" type="image/png">
+        <img src="img/voluntario1500.png" alt="Imagem flexível">
+    </picture>
+    </div>
+     <section>
+     <h2>📝Cadastre-se e se torne um voluntário</h2>
+     <form class="cadastro">
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+        <br>
+        <br>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento">
+        <br>
+        <br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="18" max="120">
+        <br>
+        <br>
+        <label for="cpf">CPF:</label><br>
+        <input type="number" id="cpf" name="cpf" placeholder="000.000.000-00" title="Formato: 000.000.000-00">
+        <br>
+        <br>
+        <label for="cep">CEP:</label>
+        <input type="number" id="cep" name="cep" placeholder="00000-000" title="Formato: 00000-000">
+        <br>
+        <br>
+        <label for="celular">Telefone Celular:</label>
+        <input type="tel" id="celular" name="celular" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00) 00000-0000" title="Formato: (00) 00000-0000">
+        <br>
+    </fieldset>
+    </form>
+    </section>
+    </main>
+    <footer>
+        <hr><p>Fale com a gente! </p>
+        <p>Tel: (11) 98765-4321 | Atendimento de Segunda à sexta das 9h às 18h </p>
+        <p>Email: contato@refugioanimal.org.br</p>
+        <nav class="rodape">
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="img/what.png" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/face.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="YouTube"></a>
+        </nav>
+        <p>&copy;2025 Refúgio Animal ONG</p>
+    </footer>   
+</body>
+</html>
